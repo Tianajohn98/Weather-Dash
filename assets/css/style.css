@@ -1,0 +1,114 @@
+header {
+    background-image: linear-gradient(to right, rgb(17, 17, 228), rgb(6, 20, 58));
+    padding: 2px 10px;
+    color: white;
+}
+
+.app-title {
+
+text-align: center;
+
+}
+
+main {
+    margin: 20px auto;
+    width: 94%;
+  }
+  
+
+.card {
+
+
+    margin: 0 0 50px 0;
+    border: 3px solid white;
+    border-radius: grey;
+
+}
+
+.city-search {
+
+
+    color: black;
+    background-color: white ;
+    padding: 0%;
+
+
+
+}
+
+
+.card-search {
+
+    padding: 0%;
+
+
+}
+
+
+.search-input,
+.search,
+.form-textarea {
+
+    display: block;
+
+
+}
+
+.search-input {
+
+    width: 25%;
+    padding: 0%;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    border: 2px solid lightgrey;
+    border-radius: lightgrey;
+
+
+}
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration:none;
+    padding: 2px 2px;
+    width: 25%;
+    display: block;
+    margin: 10px 0px;
+    border-radius: .3rem ;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: rgb(77, 118, 172);
+    transform: translate(-1px, -1px);
+   
+
+
+}
+
+hr {
+margin-right: 75%;
+margin-top: 10px;
+
+
+}
+.flew-row {
+
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.justify-space-between {
+
+justify-content: space-between;
+
+
+}
+
+.container-md {
+
+float: right;
+
+
+}
