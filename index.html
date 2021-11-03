@@ -18,18 +18,18 @@
     <main class="flex-row justify-space-between">
     <div class="card" >
         <h2 class="city-search text-uppercase">Search For a City:</h2>
-        <form id="search-form" class="card-search">
-         <label class="search" id="search" for="City"></label>
-         <input name="City" id="City" type="text" autofocus="true" class="search-input"/>
-         <button type="submit" class="btn">Search</button>
+         <input  id="City" type="text"  class="search-input"/>
+         <input type="submit" value="submit" class="btn"></input>
          <hr size="3" width="25%" color="black">
         </form>
         
     </div>
+    <div class=""
     <!---search history-->
     <div class="searchList">
 
     </div>
+
 <!----Weather-->
     <div class="col-md-8">
     <div class= "row p-2">
@@ -42,24 +42,16 @@
      </div>
     </div>
     
-    
+    <!---5 Day Forecast-->
     <div class="row">
     <h3>5 Day Forecast</h3>
     </div>
-<div id ="weekForcast" class="row"></div>
-   
-
-    
-
-   
-             
-
-
+<div id ="weekForecast" class="row"></div>
 
 
    
 </main>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
