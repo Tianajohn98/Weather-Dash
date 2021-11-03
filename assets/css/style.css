@@ -84,6 +84,24 @@ main {
 
 }
 
+.searchList {
+  
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration:none;
+    padding: 2px 2px;
+    width: 25%;
+    display: block;
+    margin: 10px 0px;
+    border-radius: .3rem ;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: lightgrey;
+    transform: translate(-1px, -1px);
+
+}
+
 hr {
 margin-right: 75%;
 margin-top: 10px;

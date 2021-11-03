@@ -18,26 +18,33 @@
     <main class="flex-row justify-space-between">
     <div class="card" >
         <h2 class="city-search text-uppercase">Search For a City:</h2>
-         <input  id="City" type="text"  class="search-input"/>
-         <input type="submit" value="submit" class="btn"></input>
+         <input  id="City" type="text"  class="search-input" autocomplete="off"/>
+         <input type="submit" value="submit" class="btn" id=button ></input>
          <hr size="3" width="25%" color="black">
-        </form>
+        
+
+     <!--search history-->
+     <div class="searchList">
+     <P class="history"></P>
+    
+    
         
     </div>
-    <div class=""
-    <!---search history-->
-    <div class="searchList">
+    
+   
 
-    </div>
-
-<!----Weather-->
+<!----Current Weather-->
     <div class="col-md-8">
     <div class= "row p-2">
     <div class="card">
-    <div class="card-body"></div>
 
-
-
+    <div class="card-body">
+        <H1></H1>
+        <p>Temp:</p>
+        <p>Wind:</p>
+        <p>Humidity</p>
+        <p>UV Index</p>
+    </div>
      </div>
      </div>
     </div>
@@ -46,7 +53,9 @@
     <div class="row">
     <h3>5 Day Forecast</h3>
     </div>
-<div id ="weekForecast" class="row"></div>
+<div id ="weekForecast" class="row">
+
+</div>
 
 
    
