@@ -6,13 +6,18 @@ const searchHistory = document.querySelector('.searchList')
 const inputValue = document.querySelector('#City')
 const saveLocation = document.querySelector('.history')
 const storedCity = localStorage.getItem('cityName')
-
+//variables for current day weather
 var mainName = document.querySelector('#city-name')
 var temp = document.querySelector('#city-temp')
 var uv = document.querySelector('#city-index')
 var humidity = document.querySelector('#city-humidity')
 var wind = document.querySelector('#city-wind')
 var now = moment()
+//variables for forecast
+var forecastDate = document.querySelector('#Date')
+var forecastTemp = document.querySelector('#Temp')
+var forecastWind = document.querySelector('#Wind')
+var forecastHumidity = document.querySelector('#Humidity')
 
 //save search input to p element
 if(input) {
@@ -31,12 +36,21 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+input.value+'&units=
 response.json().then(function(data) {
    console.log(data);
 
-   
+var weekForecast = [];
 
+for (var i =4; i < response.list.length && i < response.list.length; i += 8)
+ weekForecast.push(response.list[i]);
+
+      
+          for (var i = 0; i < weekForecast.length; i++)
+      
+  {  
+      var fDate = new Date(weekForecast[i].dt_txt);
+      forecastDate.html(`${(fDate.getMonth() + 1)}/${fDate.getDate()}/${fDate.getFullYear()}`);
 
    }
 
-);
+});
 
 });
 
