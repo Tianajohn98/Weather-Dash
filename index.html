@@ -15,6 +15,7 @@
 </header>
 <body>
     <!---input form-->
+    <div class="container-fluid">
     <main class="flex-row justify-space-between">
     <div class="card" >
         <h2 class="city-search text-uppercase">Search For a City:</h2>
@@ -34,34 +35,76 @@
    
 
 <!----Current Weather-->
-    <div class="col-md-8 no-padding">
-    <div class= "row p-2">
+    <div class="col-md-8">
+    <div class= "main-display">
     <div class="card fluid">
     <div class="card-body">
-
-        <h3 id="city-name" class="city"></h3>
-        <div id="city-temp" class="=city"></div>
-        <div id="city-wind" class="city"></div>
-        <div id="city-humidity" class="city"></div>
-        <div id="city-index" class="city"></div>
-
-     </div>
-     <div class="row">
-        <h4>5-Day Forecast:</h4>
-    </div>
-    <!-- Five Day Card -->
-    <div id="weeklyForecast" class="row"></div>
-    
-     
-    </div>
+        <h3 id="city-name" class="cityname"></h3>
+        <div id="city-temp" class="citytemp">Temp</div>
+        <div id="city-wind" class="citywind">Wind</div>
+        <div id="city-humidity" class="cityhumidity">Humidity</div>
+        <div id="city-index" class="cityIndex">Uv</div>
      </div>
     </div>
-    
-    <!---5 Day Forecast-->
- 
+     </div>
+      <!-- Five Day Forecast -->
+     <div class="forecast-holder card-group">
+       
+         <div class="card fluid bg-primary city-forecast-day" style="width: 18rem;">
+            <div class="card-body">
+         <h4 id="Date"class="card-title">bfebf</h4>
+         <P class="Temp">ekfb</P>
+         <p class="Wind">ehbf</p>
+         <p class="Humidity">ebfe</p>
+
+        </div>
+       </div>
+       <div class="card fluid bg-primary city-forecast-day" style="width: 18rem;">
+        <div class="card-body">
+     <h4 id="Date" class="card-title">bfebf</h4>
+     <P class="Temp">ekfb</P>
+     <p class="Wind">ehbf</p>
+     <p class="Humidity">ebfe</p>
+
+    </div>
+   </div>
+   <div class="card fluid bg-primary city-forecast-day" style="width: 18rem;">
+    <div class="card-body">
+ <h4 id="Date" class="card-title">bfebf</h4>
+ <P class="Temp">ekfb</P>
+ <p class="Wind">ehbf</p>
+ <p class="Humidity">ebfe</p>
+
+</div>
+</div>
+
+<div class="card fluid bg-primary city-forecast-day" style="width: 18rem;">
+    <div class="card-body">
+ <h4 id="Date"class="card-title">bfebf</h4>
+ <P class="Temp">ekfb</P>
+ <p class="Wind">ehbf</p>
+ <p class="Humidity">ebfe</p>
+
+</div>
+</div>
+
+<div class="card fluid bg-primary city-forecast-day" style="width: 18rem;">
+    <div class="card-body">
+ <h4 id="Date" class="card-title">bfebf</h4>
+ <P class="Temp">ekfb</P>
+ <p class="Wind">ehbf</p>
+ <p class="Humidity">ebfe</p>
+
+</div>
+</div>
+       </div>
+      
 
 
-   
+    </div>
+
+
+    </div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>

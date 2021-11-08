@@ -31,6 +31,7 @@ main {
     color: black;
     background-color: white ;
     padding: 0%;
+    font-size: 28px;
 
 
 
@@ -101,6 +102,16 @@ main {
     transform: translate(-1px, -1px);
 
 }
+.main-display {
+
+margin-top: 0%;
+
+}
+.col-md-8 {
+
+margin-top: 0%;
+
+}
 
 hr {
 margin-right: 75%;
@@ -128,5 +139,59 @@ justify-content: space-between;
 
 float: right;
 
+
+}
+
+
+
+.col-md-8 {
+
+    margin-left: 30%;
+
+
+
+
+}
+
+.forecast {
+
+    padding-top: .8em;
+    padding-left: .8em;
+}
+.weeklyForecast {
+
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.weeklyForecast {
+
+    display: inline-block;
+    margin-top: 0%;
+    margin-right: 1.5%;
+    width: 150px;
+    text-align: left;
+    color: white;
+}
+
+.uv-low {
+    background:lightgreen;
+
+}
+
+.uv-medium {
+
+background: orange;
+
+}
+
+.uv-high {
+
+background: red;
+
+}
+
+.city {
 
 }
